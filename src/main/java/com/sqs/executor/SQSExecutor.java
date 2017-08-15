@@ -21,7 +21,7 @@ public class SQSExecutor {
 
     public static void main(String[] args) {
         AWSCredentialsProvider credentialsProvidor = new StaticCredentialsProvider(
-            new BasicAWSCredentials("AKIAIOAISOHY2RK5FNJQ", "VmnuDs9+VvLBHuJ8SAgibuz96t4wqYIFu94JhSS8"));
+            new BasicAWSCredentials("", ""));
         AmazonSQS amazonSQS = AmazonSQSClientBuilder.standard()
             .withCredentials(credentialsProvidor)
             .withRegion(Regions.US_EAST_1)
